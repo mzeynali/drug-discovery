@@ -1,0 +1,8 @@
+numpy
+pillow
+openai
+langchain
+streamlit
+paddleocr
+
+
