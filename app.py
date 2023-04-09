@@ -87,7 +87,7 @@ def load_image():
         return image_data
     
     
-st.title('MedicifyMe Demo')
+st.title('Drug Discovery')
 image = load_image()
 if  image is not None:
     image = np.asarray(Image.open(BytesIO(image)).convert('RGB'))

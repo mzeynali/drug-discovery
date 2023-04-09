@@ -1,6 +1,8 @@
 # Drug Discovery
 This repo is integrated PaddleOCR with ChatGPT using Streamlit. We can upload image and extract the name of drug and dose, also we can put the list of string drug names and check drug interactions.In this app we run PaddleOCR on CPU, you can change the argument of that to GPU.
 
+![plot](./images/src.png)
+
 ## Requirements
 
 ```
