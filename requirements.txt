@@ -1,3 +1,4 @@
+python-decouple
 numpy
 pillow
 openai
@@ -5,6 +6,3 @@ langchain
 streamlit
 paddlepaddle
 paddleocr
-python-decouple
-
-
