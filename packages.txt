@@ -1,2 +1,3 @@
-update
-install ffmpeg libsm6 libxext6  -y
+ffmpeg -y
+libsm6 -y
+libxext6 -y
