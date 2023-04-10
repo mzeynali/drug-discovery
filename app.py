@@ -17,7 +17,7 @@ if "visibility" not in st.session_state:
     result_interact = "The list of drugs is not included!"
 
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 
 result = {'drug': '', 'dose': {'value': '', 'unit': ''}}
 
