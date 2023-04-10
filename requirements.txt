@@ -3,6 +3,7 @@ pillow
 openai
 langchain
 streamlit
+paddlepaddle
 paddleocr
 
 
