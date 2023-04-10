@@ -8,6 +8,7 @@ from langchain.llms import OpenAI
 from langchain.prompts.prompt import PromptTemplate
 from langchain import PromptTemplate
 from ast import literal_eval
+from decouple import config
 
 # Store the initial value of widgets in session state
 if "visibility" not in st.session_state:
@@ -17,7 +18,7 @@ if "visibility" not in st.session_state:
     result_interact = "The list of drugs is not included!"
 
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = config('OPENAI_API_KEY')
 
 result = {'drug': '', 'dose': {'value': '', 'unit': ''}}
 
